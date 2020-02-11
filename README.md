@@ -1,6 +1,9 @@
 # interpersonal
 **Compute conversation in real-time.**
 
+Get started with the interactive [tutorials](https://colab.research.google.com/github/waifuai/interpersonal/blob/master/tutorials/1_interpersonal_tutorials.ipynb).
+
+
 - [interpersonal](#interpersonal)
   * [Documentation](#documentation)
   * [Status](#status)
@@ -12,11 +15,12 @@
 
 ## Documentation
 
+- [Tutorials](https://colab.research.google.com/github/waifuai/interpersonal/blob/master/tutorials/1_interpersonal_tutorials.ipynb) Interactive tutorials demonstrating how to use the library.
 - [GitHub](https://github.com/waifuai/interpersonal) Repository for the project.
 - [Paper](https://github.com/waifuai/papers/blob/master/interpersonal.pdf) In-depth explanation with lots of images.
-- [Documentation](https://waifuai.github.io/interpersonal/) Interactive website with images explaining core concepts.
-- [Demo](./demo.ipynb) Demonstration of module usage in a Jupyter Notebook.
-- [Kaggle datasets](https://www.kaggle.com/waifuai/interpersonal-traits) Larger (up to 96MB) precomputed traits databases.
+- [Documentation](https://waifuai.github.io/interpersonal/) Github Pages website with images explaining core concepts.
+- [Github Releases](https://github.com/waifuai/interpersonal/releases) Have the larger (up to 96MB) precomputed traits databases. You can download these files directly using `wget` and `curl` without authentication.
+- [Kaggle datasets](https://www.kaggle.com/waifuai/interpersonal-traits) Kaggle page also containing the precomputed traits databases. You need to authenticate through Kaggle to download these files. The Kaggle dataset is useful if you want to use the Kaggle notebooks feature.
 - [Pip package](https://pypi.org/project/interpersonal/) Listing on the Python Package Index. 
 - [Homepage](https://waifuai.com/interpersonal) Single page website advertising core capabilities.
 
@@ -24,30 +28,30 @@
 
 ## Usage
 
-`pip install interpersonal` - Installs `interpersonal` but does not do anything yet.
+`pip install interpersonal` - Installs Interpersonal.
 
-See the Jupyter Notebook [demo](./demo.ipynb) for working example usage.
+See the tutorial [demo](https://colab.research.google.com/github/waifuai/interpersonal/blob/master/tutorials/3_comparing_persons.ipynb) for working example usage.
 
 We are are actively looking for feedback. Do open an issue if you have any ideas or suggestions.
 
 ## Purpose
 
-`interpersonal` can be used to achieve goals such as the following:
+Interpersonal can be used to achieve goals such as the following:
 
 ![Imgur](https://i.imgur.com/RuP9Ai9.png)
 
-`interpersonal` is a multi-purpose engine to power social interactions.
+Interpersonal is a multi-purpose engine to power social interactions.
 Unlike other personality engines, it is extremely simple to understand and use.
 It also works offline, not requiring an internet connection.
 Therefore, even if your application needs a more complicated custom engine,
-`interpersonal` can serve as a tool for initial rapid prototyping since it allows you
+Interpersonal can serve as a tool for initial rapid prototyping since it allows you
 to get up and running quickly.
 
     
 
 ## Description
 
-`interpersonal` is a Python library that allows for the computation of various interpersonal values from English text.
+Interpersonal is a Python library that allows for the computation of various interpersonal values from English text.
 
 It can perform the following operations:
 - Predict the personality of a person given a description of them.
