@@ -1,6 +1,8 @@
 # interpersonal
 **Compute conversation in real-time.**
 
+[![HitCount](http://hits.dwyl.com/waifuai/interpersonal.svg)](http://hits.dwyl.com/waifuai/interpersonal)
+
 Get started with the interactive [tutorials](https://colab.research.google.com/github/waifuai/interpersonal/blob/master/tutorials/1_interpersonal_tutorials.ipynb).
 
 
